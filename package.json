@@ -7,11 +7,6 @@
       "type": "git",
       "url": "https://github.com/Nodws/bootstrap4-tagsinput"
     },
-   "licenses": [
-    {
-      "name": "MIT",
-      "url": "https://github.com/Nodws/bootstrap4-tagsinput/blob/master/LICENSE"
-    }
-  ],
+   "license": "MIT",
   "homepage": "https://github.com/Nodws/bootstrap4-tagsinput"
 }
