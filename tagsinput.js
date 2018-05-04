@@ -29,7 +29,7 @@
     delimiterRegex: null,
     cancelConfirmKeysOnEmpty: false,
     onTagExists: function(item, $tag) {
-      $tag.hide().fadeIn();
+      $tag.addClass('sr-only');
     },
     trimValue: false,
     allowDuplicates: false,
@@ -44,7 +44,7 @@
     this.itemsArray = [];
 
     this.$element = $(element);
-    this.$element.hide();
+    this.$element.addClass('sr-only');
 
     this.isSelect = (element.tagName === 'SELECT');
     this.multiple = (this.isSelect && element.hasAttribute('multiple'));
