@@ -275,7 +275,7 @@
             return self.options.itemValue(item).toString();
           });
 
-      self.$element.val(val, true);
+      self.$element.val( val.join(self.options.delimiter) );
 
       if (self.options.triggerChange)
         self.$element.trigger('change');
