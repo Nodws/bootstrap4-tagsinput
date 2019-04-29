@@ -41,11 +41,8 @@
   box-shadow: none;
 }
 .bootstrap-tagsinput .badge {
-  margin-right: 2px;
-  color: white;
-  background-color:#0275d8;
-  padding:5px 8px;border-radius:3px;
-  border:1px solid #01649e
+  margin: 2px 0;
+  padding:5px 8px;
 }
 .bootstrap-tagsinput .badge [data-role="remove"] {
   margin-left: 8px;
