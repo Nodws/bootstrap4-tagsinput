@@ -29,7 +29,7 @@
     delimiterRegex: null,
     cancelConfirmKeysOnEmpty: false,
     onTagExists: function(item, $tag) {
-      $tag.addClass('sr-only');
+      $tag.hide().fadeIn();
     },
     trimValue: false,
     allowDuplicates: false,
