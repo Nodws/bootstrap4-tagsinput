@@ -12,4 +12,4 @@ Examples can be found [here](http://bootstrap-tagsinput.github.io/bootstrap-tags
 * Modified for Bootstrap 4 Alpha
 
 ## Unmantained code AS-IS
-Please fork and continue development if you need this plugin, as I only needed to update it for a project and will not continue further support :)
+If you need this plugin please fork and continue development, as I only needed it for a single project and will not continue further maintenance :)
