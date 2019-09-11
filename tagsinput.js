@@ -33,7 +33,8 @@
     },
     trimValue: false,
     allowDuplicates: false,
-    triggerChange: true
+    triggerChange: true,
+    editOnBackspace: false
   };
 
   /**
@@ -419,6 +420,9 @@
             if (doGetCaretPosition($input[0]) === 0) {
               var prev = $inputWrapper.prev();
               if (prev.length) {
+                if (self.options.editOnBackspace === true) {
+                  $input.val(prev.data('item'));
+                }
                 self.remove(prev.data('item'));
               }
             }
